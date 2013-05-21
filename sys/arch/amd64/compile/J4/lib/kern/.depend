@@ -1,0 +1,2066 @@
+__main.ln __main.go __main.pico __main.po __main.o: ../../../../../../lib/libkern/__main.c \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h
+arc4random.ln arc4random.go arc4random.pico arc4random.po arc4random.o: ../../../../../../lib/libkern/arc4random.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/null.h \
+ ../../../../../../sys/signal.h ../../../../../../sys/sigtypes.h \
+ ../../../../../../sys/satypes.h ../../../../../../sys/siginfo.h \
+ ../.././machine/signal.h ../.././machine/trap.h ../.././x86/trap.h \
+ ../.././machine/fpu.h ../.././machine/mcontext.h \
+ ../.././machine/frame_regs.h ../.././opt_compat_netbsd.h \
+ ../.././opt_compat_netbsd32.h ../../../../../../sys/ucontext.h \
+ ../../../../../../sys/systm.h ../.././opt_ddb.h \
+ ../.././opt_multiprocessor.h ../../../../../../sys/stdarg.h \
+ ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/kernel.h ../../../../../../sys/rngtest.h \
+ ../../../../../../sys/rnd.h ../../../../../../sys/sha1.h \
+ ../../../../../../dev/rnd_private.h
+atomic.ln atomic.go atomic.pico atomic.po atomic.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/atomic/atomic.S \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../.././machine/asm.h
+bcd.ln bcd.go bcd.pico bcd.po bcd.o: ../../../../../../lib/libkern/bcd.c ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h
+byte_swap_2.ln byte_swap_2.go byte_swap_2.pico byte_swap_2.po byte_swap_2.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/gen/byte_swap_2.S \
+ ../.././machine/asm.h
+byte_swap_4.ln byte_swap_4.go byte_swap_4.pico byte_swap_4.po byte_swap_4.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/gen/byte_swap_4.S \
+ ../.././machine/asm.h
+byte_swap_8.ln byte_swap_8.go byte_swap_8.pico byte_swap_8.po byte_swap_8.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/gen/byte_swap_8.S \
+ ../.././machine/asm.h
+cpuset.ln cpuset.go cpuset.pico cpuset.po cpuset.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/sys/cpuset.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/kmem.h ../../../../../../sys/atomic.h
+crc32.ln crc32.go crc32.pico crc32.po crc32.o: ../../../../../../lib/libkern/crc32.c \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../../../../../../sys/inttypes.h ../../../../../../sys/stdint.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../lib/libkern/crc32.h
+ffs.ln ffs.go ffs.pico ffs.po ffs.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/ffs.S \
+ ../.././machine/asm.h
+getfstypename.ln getfstypename.go getfstypename.pico getfstypename.po getfstypename.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libutil/getfstypename.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/disk.h \
+ ../../../../../../sys/device.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/evcnt.h ../../../../../../sys/queue.h \
+ ../../../../../../sys/null.h ../../../../../../sys/mutex.h \
+ ../.././opt_lockdebug.h ../../../../../../sys/intr.h \
+ ../.././machine/intr.h ../.././x86/intr.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pmf.h \
+ ../../../../../../../common/include/prop/proplib.h \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../../common/include/prop/prop_bool.h \
+ ../../../../../../../common/include/prop/prop_data.h \
+ ../../../../../../../common/include/prop/prop_dictionary.h \
+ ../../../../../../../common/include/prop/prop_number.h \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../../common/include/prop/prop_ingest.h \
+ ../../../../../../../common/include/prop/plistref.h \
+ ../../../../../../sys/dkio.h ../../../../../../sys/ioccom.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../lib/libkern/libkern.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/iostat.h ../../../../../../sys/disklabel.h \
+ ../.././machine/disklabel.h ../../../../../../sys/bootblock.h \
+ ../../../../../../sys/dkbad.h
+heapsort.ln heapsort.go heapsort.pico heapsort.po heapsort.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/heapsort.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../lib/libkern/libkern.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+imax.ln imax.go imax.pico imax.po imax.o: ../../../../../../lib/libkern/imax.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+imin.ln imin.go imin.pico imin.po imin.o: ../../../../../../lib/libkern/imin.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+inet_addr.ln inet_addr.go inet_addr.pico inet_addr.po inet_addr.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/inet/inet_addr.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h ../../../../../../netinet/in.h \
+ ../../../../../../netinet6/in6.h ../../../../../../sys/socket.h \
+ ../../../../../../sys/uio.h ../../../../../../sys/sigtypes.h \
+ ../../../../../../sys/satypes.h
+intoa.ln intoa.go intoa.pico intoa.po intoa.o: ../../../../../../lib/libkern/intoa.c \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../lib/libkern/libkern.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+kern_assert.ln kern_assert.go kern_assert.pico kern_assert.po kern_assert.o: ../../../../../../lib/libkern/kern_assert.c \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h
+lmax.ln lmax.go lmax.pico lmax.po lmax.o: ../../../../../../lib/libkern/lmax.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+lmin.ln lmin.go lmin.pico lmin.po lmin.o: ../../../../../../lib/libkern/lmin.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+max.ln max.go max.pico max.po max.o: ../../../../../../lib/libkern/max.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+mcount.ln mcount.go mcount.pico mcount.po mcount.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/gmon/mcount.c
+md4c.ln md4c.go md4c.pico md4c.po md4c.o: ../../../../../../lib/libkern/../../../common/lib/libc/md/md4c.c \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../../../../../../sys/inttypes.h ../../../../../../sys/stdint.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/md4.h
+md5c.ln md5c.go md5c.pico md5c.po md5c.o: ../../../../../../lib/libkern/../../../common/lib/libc/md/md5c.c \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../../../../../../sys/inttypes.h ../../../../../../sys/stdint.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/md5.h
+memchr.ln memchr.go memchr.pico memchr.po memchr.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/memchr.S \
+ ../.././machine/asm.h
+memcmp.ln memcmp.go memcmp.pico memcmp.po memcmp.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/memcmp.S \
+ ../.././machine/asm.h
+memcpy.ln memcpy.go memcpy.pico memcpy.po memcpy.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/memcpy.S \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/bcopy.S \
+ ../.././machine/asm.h
+memmove.ln memmove.go memmove.pico memmove.po memmove.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/memmove.S \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/bcopy.S \
+ ../.././machine/asm.h
+memset.ln memset.go memset.pico memset.po memset.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/memset.S \
+ ../.././machine/asm.h
+mertwist.ln mertwist.go mertwist.pico mertwist.po mertwist.o: ../../../../../../lib/libkern/mertwist.c \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../../../../../../sys/inttypes.h ../../../../../../sys/stdint.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h
+min.ln min.go min.pico min.po min.o: ../../../../../../lib/libkern/min.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+pmatch.ln pmatch.go pmatch.pico pmatch.po pmatch.o: ../../../../../../lib/libkern/pmatch.c \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../../../../../../sys/inttypes.h ../../../../../../sys/stdint.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h
+popcount32.ln popcount32.go popcount32.pico popcount32.po popcount32.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/popcount32.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../.././machine/limits.h
+popcount64.ln popcount64.go popcount64.pico popcount64.po popcount64.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/popcount64.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../.././machine/limits.h
+ppath.ln ppath.go ppath.pico ppath.po ppath.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libppath/ppath.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../../../../../../sys/featuretest.h \
+ ../../../../../../sys/ansi.h ../.././machine/ansi.h \
+ ../.././machine/int_types.h ../../../../../../sys/types.h \
+ ../.././machine/types.h ../.././opt_xen.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdarg.h \
+ ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../../common/include/ppath/ppath.h \
+ ../../../../../../../common/include/prop/proplib.h \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../../common/include/prop/prop_bool.h \
+ ../../../../../../../common/include/prop/prop_data.h \
+ ../../../../../../../common/include/prop/prop_dictionary.h \
+ ../../../../../../../common/include/prop/prop_number.h \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../../common/include/prop/prop_ingest.h \
+ ../../../../../../../common/include/prop/plistref.h \
+ ../../../../../../../common/include/ppath/ppath_impl.h \
+ ../../../../../../sys/errno.h
+ppath_extant.ln ppath_extant.go ppath_extant.pico ppath_extant.po ppath_extant.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libppath/ppath_extant.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../../common/include/ppath/ppath_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../sys/errno.h
+ppath_kmem_alloc.ln ppath_kmem_alloc.go ppath_kmem_alloc.pico ppath_kmem_alloc.po ppath_kmem_alloc.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libppath/ppath_kmem_alloc.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/kmem.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../.././machine/int_types.h ../.././opt_xen.h \
+ ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../../common/include/ppath/ppath_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../sys/errno.h
+proc_compare.ln proc_compare.go proc_compare.pico proc_compare.po proc_compare.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libutil/proc_compare.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/proc.h ../.././opt_kstack.h ../.././machine/proc.h \
+ ../.././machine/pcb.h ../.././machine/sysarch.h ../.././x86/sysarch.h \
+ ../../../../../../sys/aio.h ../../../../../../sys/lwp.h \
+ ../../../../../../sys/kcpuset.h ../../../../../../sys/signalvar.h \
+ ../../../../../../sys/specificdata.h ../../../../../../sys/syncobj.h \
+ ../../../../../../sys/pool.h ../.././opt_pool.h \
+ ../../../../../../sys/callback.h ../../../../../../sys/rwlock.h \
+ ../.././machine/rwlock.h ../.././x86/rwlock.h \
+ ../../../../../../sys/mqueue.h ../../../../../../sys/selinfo.h \
+ ../../../../../../sys/event.h ../../../../../../sys/ioctl.h \
+ ../../../../../../sys/ttycom.h ../../../../../../sys/ioccom.h \
+ ../../../../../../sys/dkio.h \
+ ../../../../../../../common/include/prop/plistref.h \
+ ../../../../../../sys/filio.h ../../../../../../sys/sockio.h \
+ ../.././opt_compat_freebsd.h ../.././opt_compat_sunos.h \
+ ../.././opt_compat_svr4.h ../.././opt_compat_43.h \
+ ../.././opt_compat_osf1.h ../.././opt_compat_ibcs2.h \
+ ../.././opt_modular.h ../../../../../../sys/ioctl_compat.h \
+ ../../../../../../sys/ttychars.h ../../../../../../sys/ttydev.h
+prop_array.ln prop_array.go prop_array.pico prop_array.po prop_array.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_array.c \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+prop_array_util.ln prop_array_util.go prop_array_util.pico prop_array_util.po prop_array_util.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_array_util.c \
+ ../../../../../../../common/include/prop/proplib.h \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../../common/include/prop/prop_bool.h \
+ ../../../../../../../common/include/prop/prop_data.h \
+ ../../../../../../../common/include/prop/prop_dictionary.h \
+ ../../../../../../../common/include/prop/prop_number.h \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../../common/include/prop/prop_ingest.h \
+ ../../../../../../../common/include/prop/plistref.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+prop_bool.ln prop_bool.go prop_bool.pico prop_bool.po prop_bool.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_bool.c \
+ ../../../../../../../common/include/prop/prop_bool.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+prop_data.ln prop_data.go prop_data.pico prop_data.po prop_data.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_data.c \
+ ../../../../../../../common/include/prop/prop_data.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+prop_dictionary.ln prop_dictionary.go prop_dictionary.pico prop_dictionary.po prop_dictionary.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_dictionary.c \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../../common/include/prop/prop_dictionary.h \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_rb_impl.h \
+ ../../../../../../sys/rbtree.h
+prop_dictionary_util.ln prop_dictionary_util.go prop_dictionary_util.pico prop_dictionary_util.po prop_dictionary_util.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_dictionary_util.c \
+ ../../../../../../../common/include/prop/proplib.h \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../../common/include/prop/prop_bool.h \
+ ../../../../../../../common/include/prop/prop_data.h \
+ ../../../../../../../common/include/prop/prop_dictionary.h \
+ ../../../../../../../common/include/prop/prop_number.h \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../../common/include/prop/prop_ingest.h \
+ ../../../../../../../common/include/prop/plistref.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+prop_ingest.ln prop_ingest.go prop_ingest.pico prop_ingest.po prop_ingest.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_ingest.c \
+ ../../../../../../../common/include/prop/proplib.h \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../../common/include/prop/prop_bool.h \
+ ../../../../../../../common/include/prop/prop_data.h \
+ ../../../../../../../common/include/prop/prop_dictionary.h \
+ ../../../../../../../common/include/prop/prop_number.h \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../../common/include/prop/prop_ingest.h \
+ ../../../../../../../common/include/prop/plistref.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+prop_kern.ln prop_kern.go prop_kern.pico prop_kern.po prop_kern.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_kern.c \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/ioctl.h \
+ ../../../../../../sys/ttycom.h ../../../../../../sys/ioccom.h \
+ ../../../../../../sys/dkio.h \
+ ../../../../../../../common/include/prop/plistref.h \
+ ../../../../../../sys/filio.h ../../../../../../sys/sockio.h \
+ ../.././opt_compat_freebsd.h ../.././opt_compat_sunos.h \
+ ../.././opt_compat_svr4.h ../.././opt_compat_43.h \
+ ../.././opt_compat_osf1.h ../.././opt_compat_ibcs2.h \
+ ../.././opt_modular.h ../../../../../../sys/ioctl_compat.h \
+ ../../../../../../sys/ttychars.h ../../../../../../sys/ttydev.h \
+ ../../../../../../../common/include/prop/proplib.h \
+ ../../../../../../../common/include/prop/prop_array.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../../common/include/prop/prop_bool.h \
+ ../../../../../../../common/include/prop/prop_data.h \
+ ../../../../../../../common/include/prop/prop_dictionary.h \
+ ../../../../../../../common/include/prop/prop_number.h \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../../common/include/prop/prop_ingest.h \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/queue.h \
+ ../../../../../../sys/signal.h ../../../../../../sys/sigtypes.h \
+ ../../../../../../sys/satypes.h ../../../../../../sys/siginfo.h \
+ ../.././machine/signal.h ../.././machine/trap.h ../.././x86/trap.h \
+ ../.././machine/fpu.h ../.././machine/mcontext.h \
+ ../.././machine/frame_regs.h ../.././opt_compat_netbsd.h \
+ ../.././opt_compat_netbsd32.h ../../../../../../sys/ucontext.h \
+ ../../../../../../sys/systm.h ../.././opt_ddb.h \
+ ../.././opt_multiprocessor.h ../../../../../../sys/stdarg.h \
+ ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/mman.h ../../../../../../sys/malloc.h \
+ ../.././opt_kmemstats.h ../.././opt_malloclog.h \
+ ../.././opt_malloc_debug.h ../../../../../../sys/mallocvar.h \
+ ../../../../../../sys/proc.h ../.././opt_kstack.h ../.././machine/proc.h \
+ ../.././machine/pcb.h ../.././machine/sysarch.h ../.././x86/sysarch.h \
+ ../../../../../../sys/aio.h ../../../../../../sys/lwp.h \
+ ../../../../../../sys/kcpuset.h ../../../../../../sys/signalvar.h \
+ ../../../../../../sys/specificdata.h ../../../../../../sys/syncobj.h \
+ ../../../../../../sys/pool.h ../.././opt_pool.h \
+ ../../../../../../sys/callback.h ../../../../../../sys/rwlock.h \
+ ../.././machine/rwlock.h ../.././x86/rwlock.h \
+ ../../../../../../sys/mqueue.h ../../../../../../sys/selinfo.h \
+ ../../../../../../sys/event.h ../../../../../../uvm/uvm.h \
+ ../.././opt_uvmhist.h ../.././opt_uvm_page_trkown.h \
+ ../../../../../../uvm/uvm_extern.h ../../../../../../sys/vmmeter.h \
+ ../../../../../../sys/lock.h ../.././machine/lock.h ../.././x86/lock.h \
+ ../.././machine/cpufunc.h ../.././x86/cpufunc.h \
+ ../.././machine/specialreg.h ../.././x86/specialreg.h \
+ ../../../../../../sys/vmem.h ../../../../../../uvm/uvm_prot.h \
+ ../../../../../../uvm/uvm_pmap.h ../.././machine/pmap.h \
+ ../../../../../../sys/atomic.h ../../../../../../uvm/uvm_object.h \
+ ../../../../../../sys/rbtree.h ../../../../../../uvm/uvm_pglist.h \
+ ../.././x86/pmap.h ../.././x86/pmap_pv.h ../../../../../../uvm/uvm_map.h \
+ ../../../../../../uvm/uvm_anon.h ../.././opt_vmswap.h \
+ ../../../../../../uvm/uvm_pager.h ../../../../../../uvm/uvm_stat.h \
+ ../.././opt_kernhist.h ../../../../../../sys/kernhist.h \
+ ../../../../../../uvm/uvm_amap.h ../../../../../../uvm/uvm_aobj.h \
+ ../../../../../../uvm/uvm_fault.h ../../../../../../uvm/uvm_glue.h \
+ ../../../../../../uvm/uvm_km.h ../../../../../../uvm/uvm_loan.h \
+ ../../../../../../uvm/uvm_page.h ../../../../../../uvm/uvm_pdaemon.h \
+ ../../../../../../uvm/uvm_swap.h ../../../../../../sys/rnd.h \
+ ../../../../../../sys/sha1.h ../../../../../../sys/rngtest.h \
+ ../../../../../../uvm/uvm_fault_i.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/once.h
+prop_number.ln prop_number.go prop_number.pico prop_number.po prop_number.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_number.c \
+ ../../../../../../../common/include/prop/prop_number.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_rb_impl.h \
+ ../../../../../../sys/rbtree.h
+prop_object.ln prop_object.go prop_object.pico prop_object.po prop_object.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object.c \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h \
+ ../../../../../../sys/atomic.h
+prop_stack.ln prop_stack.go prop_stack.pico prop_stack.po prop_stack.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.c \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/null.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+prop_string.ln prop_string.go prop_string.pico prop_string.po prop_string.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_string.c \
+ ../../../../../../../common/include/prop/prop_string.h \
+ ../../../../../../../common/include/prop/prop_object.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_object_impl.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../lib/libkern/../../../common/lib/libprop/prop_stack.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/param.h \
+ ../../../../../../sys/syslimits.h ../../../../../../sys/errno.h \
+ ../../../../../../sys/time.h ../../../../../../sys/timevar.h \
+ ../../../../../../sys/callout.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/malloc.h ../.././opt_kmemstats.h \
+ ../.././opt_malloclog.h ../.././opt_malloc_debug.h \
+ ../../../../../../sys/mallocvar.h ../../../../../../sys/pool.h \
+ ../.././opt_pool.h ../../../../../../sys/callback.h \
+ ../../../../../../sys/rwlock.h ../.././machine/rwlock.h \
+ ../.././x86/rwlock.h ../../../../../../sys/once.h
+ptree.ln ptree.go ptree.pico ptree.po ptree.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/gen/ptree.c \
+ ../../../../../../sys/param.h ../../../../../../sys/null.h \
+ ../../../../../../sys/inttypes.h ../../../../../../sys/stdint.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/ptree.h
+random.ln random.go random.pico random.po random.o: ../../../../../../lib/libkern/arch/x86_64/random.S \
+ ../.././machine/asm.h
+rb.ln rb.go rb.pico rb.po rb.o: ../../../../../../lib/libkern/../../../common/lib/libc/gen/rb.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h ../../../../../../sys/rbtree.h \
+ ../../../../../../sys/queue.h
+rmd160.ln rmd160.go rmd160.pico rmd160.po rmd160.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/hash/rmd160/rmd160.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../sys/param.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../sys/resource.h ../../../../../../sys/ucred.h \
+ ../../../../../../sys/uio.h ../../../../../../uvm/uvm_param.h \
+ ../.././opt_uvm.h ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/rmd160.h
+rngtest.ln rngtest.go rngtest.pico rngtest.po rngtest.o: ../../../../../../lib/libkern/rngtest.c \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../../../../../../sys/cdefs.h \
+ ../.././machine/cdefs.h ../../../../../../sys/cdefs_elf.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../sys/rngtest.h
+scanc.ln scanc.go scanc.pico scanc.po scanc.o: ../../../../../../lib/libkern/arch/x86_64/scanc.S \
+ ../.././machine/asm.h
+sha1.ln sha1.go sha1.pico sha1.po sha1.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/hash/sha1/sha1.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../../../../../../sys/sha1.h
+sha2.ln sha2.go sha2.pico sha2.po sha2.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/hash/sha2/sha2.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../sys/sha2.h
+skpc.ln skpc.go skpc.pico skpc.po skpc.o: ../../../../../../lib/libkern/arch/x86_64/skpc.S \
+ ../.././machine/asm.h
+snprintb.ln snprintb.go snprintb.pico snprintb.po snprintb.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libutil/snprintb.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h
+strcasecmp.ln strcasecmp.go strcasecmp.pico strcasecmp.po strcasecmp.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strcasecmp.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../.././machine/limits.h
+strcat.ln strcat.go strcat.pico strcat.po strcat.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/strcat.S \
+ ../.././machine/asm.h
+strchr.ln strchr.go strchr.pico strchr.po strchr.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/strchr.S \
+ ../.././machine/asm.h
+strcmp.ln strcmp.go strcmp.pico strcmp.po strcmp.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/strcmp.S \
+ ../.././machine/asm.h
+strcpy.ln strcpy.go strcpy.pico strcpy.po strcpy.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/strcpy.S \
+ ../.././machine/asm.h
+strlcat.ln strlcat.go strlcat.pico strlcat.po strlcat.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strlcat.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+strlcpy.ln strlcpy.go strlcpy.pico strlcpy.po strlcpy.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strlcpy.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+strlen.ln strlen.go strlen.pico strlen.po strlen.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/strlen.S \
+ ../.././machine/asm.h
+strncasecmp.ln strncasecmp.go strncasecmp.pico strncasecmp.po strncasecmp.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strncasecmp.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h \
+ ../.././machine/limits.h
+strncmp.ln strncmp.go strncmp.pico strncmp.po strncmp.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strncmp.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h
+strncpy.ln strncpy.go strncpy.pico strncpy.po strncpy.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strncpy.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././machine/int_types.h ../.././opt_xen.h ../.././machine/ansi.h \
+ ../../../../../../sys/ansi.h ../.././machine/endian.h \
+ ../../../../../../sys/endian.h ../.././machine/endian_machdep.h \
+ ../.././machine/bswap.h ../.././machine/byte_swap.h \
+ ../../../../../../sys/bswap.h ../../../../../../sys/stdint.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/inttypes.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/null.h
+strrchr.ln strrchr.go strrchr.pico strrchr.po strrchr.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/arch/x86_64/string/strrchr.S \
+ ../.././machine/asm.h
+strsep.ln strsep.go strsep.pico strsep.po strsep.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strsep.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h
+strstr.ln strstr.go strstr.pico strstr.po strstr.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/string/strstr.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h
+strtoll.ln strtoll.go strtoll.pico strtoll.po strtoll.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/strtoll.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/_strtol.h
+strtoul.ln strtoul.go strtoul.pico strtoul.po strtoul.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/strtoul.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/_strtoul.h
+strtoull.ln strtoull.go strtoull.pico strtoull.po strtoull.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/strtoull.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/_strtoul.h
+strtoumax.ln strtoumax.go strtoumax.pico strtoumax.po strtoumax.o: \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/strtoumax.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/param.h \
+ ../../../../../../sys/null.h ../../../../../../sys/inttypes.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_types.h \
+ ../.././machine/int_mwgwtypes.h ../.././machine/int_limits.h \
+ ../.././machine/int_const.h ../.././machine/wchar_limits.h \
+ ../.././machine/int_fmtio.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/fd_set.h ../../../../../../sys/syslimits.h \
+ ../../../../../../sys/errno.h ../../../../../../sys/time.h \
+ ../../../../../../sys/timevar.h ../../../../../../sys/callout.h \
+ ../../../../../../sys/queue.h ../../../../../../sys/signal.h \
+ ../../../../../../sys/sigtypes.h ../../../../../../sys/satypes.h \
+ ../../../../../../sys/siginfo.h ../.././machine/signal.h \
+ ../.././machine/trap.h ../.././x86/trap.h ../.././machine/fpu.h \
+ ../.././machine/mcontext.h ../.././machine/frame_regs.h \
+ ../.././opt_compat_netbsd.h ../.././opt_compat_netbsd32.h \
+ ../../../../../../sys/ucontext.h ../../../../../../sys/systm.h \
+ ../.././opt_ddb.h ../.././opt_multiprocessor.h \
+ ../../../../../../sys/stdarg.h ../../../../../../sys/device_if.h \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/resource.h \
+ ../../../../../../sys/ucred.h ../../../../../../sys/uio.h \
+ ../../../../../../uvm/uvm_param.h ../.././opt_uvm.h \
+ ../.././machine/vmparam.h ../../../../../../sys/tree.h \
+ ../../../../../../sys/mutex.h ../.././opt_lockdebug.h \
+ ../../../../../../sys/intr.h ../.././machine/intr.h ../.././x86/intr.h \
+ ../../../../../../sys/evcnt.h ../.././machine/intrdefs.h \
+ ../.././x86/intrdefs.h ../.././machine/pic.h ../.././x86/pic.h \
+ ../../../../../../sys/spl.h ../.././machine/mutex.h ../.././x86/mutex.h \
+ ../../../../../../sys/resourcevar.h ../.././machine/param.h \
+ ../.././machine/cpu.h ../.././x86/cpu.h ../.././machine/frame.h \
+ ../.././machine/pte.h ../.././x86/pte.h ../.././machine/segments.h \
+ ../.././machine/tss.h ../.././x86/cacheinfo.h \
+ ../../../../../../sys/cpu_data.h ../../../../../../sys/sched.h \
+ ../../../../../../sys/condvar.h ../../../../../../sys/pcu.h \
+ ../../../../../../sys/percpu_types.h ../.././machine/psl.h \
+ ../.././x86/psl.h ../.././opt_vm86.h ../.././machine/limits.h \
+ ../../../../../../lib/libkern/../../../common/lib/libc/stdlib/_strtoul.h
+ulmax.ln ulmax.go ulmax.pico ulmax.po ulmax.o: ../../../../../../lib/libkern/ulmax.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+ulmin.ln ulmin.go ulmin.pico ulmin.po ulmin.o: ../../../../../../lib/libkern/ulmin.c \
+ ../../../../../../lib/libkern/libkern.h ../../../../../../sys/types.h \
+ ../../../../../../sys/featuretest.h ../.././machine/types.h \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../.././machine/int_types.h \
+ ../.././opt_xen.h ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../../../../../../sys/inttypes.h ../.././machine/int_fmtio.h \
+ ../../../../../../sys/null.h
+xlat_mbr_fstype.ln xlat_mbr_fstype.go xlat_mbr_fstype.pico xlat_mbr_fstype.po xlat_mbr_fstype.o: ../../../../../../lib/libkern/xlat_mbr_fstype.c \
+ ../../../../../../sys/cdefs.h ../.././machine/cdefs.h \
+ ../../../../../../sys/cdefs_elf.h ../../../../../../sys/disklabel.h \
+ ../../../../../../sys/types.h ../../../../../../sys/featuretest.h \
+ ../.././machine/types.h ../.././machine/int_types.h ../.././opt_xen.h \
+ ../.././machine/ansi.h ../../../../../../sys/ansi.h \
+ ../.././machine/endian.h ../../../../../../sys/endian.h \
+ ../.././machine/endian_machdep.h ../.././machine/bswap.h \
+ ../.././machine/byte_swap.h ../../../../../../sys/bswap.h \
+ ../../../../../../sys/stdint.h ../.././machine/int_mwgwtypes.h \
+ ../.././machine/int_limits.h ../.././machine/int_const.h \
+ ../.././machine/wchar_limits.h ../../../../../../sys/fd_set.h \
+ ../.././machine/disklabel.h ../../../../../../sys/bootblock.h \
+ ../../../../../../sys/dkbad.h

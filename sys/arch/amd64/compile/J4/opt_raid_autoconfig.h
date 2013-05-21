@@ -1,0 +1,9 @@
+#define	RAID_AUTOCONFIG	1
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_RAID_AUTOCONFIG
+ .global _KERNEL_OPT_RAID_AUTOCONFIG
+ .equiv _KERNEL_OPT_RAID_AUTOCONFIG,0x1
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_RAID_AUTOCONFIG\n .global _KERNEL_OPT_RAID_AUTOCONFIG\n .equiv _KERNEL_OPT_RAID_AUTOCONFIG,0x1\n .endif");
+#endif

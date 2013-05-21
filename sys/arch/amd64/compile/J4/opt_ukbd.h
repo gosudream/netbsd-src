@@ -1,0 +1,9 @@
+/* option `GDIUM_KEYBOARD_HACK' not defined */
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_GDIUM_KEYBOARD_HACK
+ .global _KERNEL_OPT_GDIUM_KEYBOARD_HACK
+ .equiv _KERNEL_OPT_GDIUM_KEYBOARD_HACK,0x6e074def
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_GDIUM_KEYBOARD_HACK\n .global _KERNEL_OPT_GDIUM_KEYBOARD_HACK\n .equiv _KERNEL_OPT_GDIUM_KEYBOARD_HACK,0x6e074def\n .endif");
+#endif

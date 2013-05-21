@@ -1,0 +1,20 @@
+/nsaccess.c/1.3/Thu Feb 17 10:09:42 2011//Tnetbsd-6-1-RELEASE
+/nsalloc.c/1.1.1.2/Thu Feb 17 10:01:24 2011//Tnetbsd-6-1-RELEASE
+/nsdump.c/1.3/Thu Feb 17 10:09:42 2011//Tnetbsd-6-1-RELEASE
+/nsdumpdv.c/1.1.1.2/Thu Feb 17 10:01:24 2011//Tnetbsd-6-1-RELEASE
+/nseval.c/1.3/Thu Feb 17 10:09:42 2011//Tnetbsd-6-1-RELEASE
+/nsinit.c/1.3/Thu Feb 17 10:09:42 2011//Tnetbsd-6-1-RELEASE
+/nsload.c/1.1.1.2/Thu Feb 17 10:01:24 2011//Tnetbsd-6-1-RELEASE
+/nsnames.c/1.1.1.2/Thu Feb 17 10:01:25 2011//Tnetbsd-6-1-RELEASE
+/nsobject.c/1.1.1.2/Thu Feb 17 10:01:25 2011//Tnetbsd-6-1-RELEASE
+/nsparse.c/1.1.1.2/Thu Feb 17 10:01:25 2011//Tnetbsd-6-1-RELEASE
+/nspredef.c/1.1.1.3/Tue Jun 28 09:02:12 2011//Tnetbsd-6-1-RELEASE
+/nsrepair.c/1.1.1.3/Tue Jun 28 09:02:12 2011//Tnetbsd-6-1-RELEASE
+/nsrepair2.c/1.4/Tue Jun 28 09:04:30 2011//Tnetbsd-6-1-RELEASE
+/nssearch.c/1.1.1.2/Thu Feb 17 10:01:26 2011//Tnetbsd-6-1-RELEASE
+/nsutils.c/1.1.1.2/Thu Feb 17 10:01:26 2011//Tnetbsd-6-1-RELEASE
+/nswalk.c/1.1.1.2/Thu Feb 17 10:01:26 2011//Tnetbsd-6-1-RELEASE
+/nsxfeval.c/1.3/Thu Feb 17 10:09:42 2011//Tnetbsd-6-1-RELEASE
+/nsxfname.c/1.3/Thu Feb 17 10:09:42 2011//Tnetbsd-6-1-RELEASE
+/nsxfobj.c/1.1.1.2/Thu Feb 17 10:01:27 2011//Tnetbsd-6-1-RELEASE
+D

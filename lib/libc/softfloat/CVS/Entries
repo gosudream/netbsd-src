@@ -1,0 +1,46 @@
+/Makefile.inc/1.10.4.1/Sat Nov 24 19:02:09 2012//Tnetbsd-6-1-RELEASE
+/README.NetBSD/1.2/Tue May 21 23:51:05 2002//Tnetbsd-6-1-RELEASE
+/README.txt/1.1/Tue Jun  6 08:15:02 2000//Tnetbsd-6-1-RELEASE
+/eqdf2.c/1.1/Tue Jun  6 08:15:02 2000//Tnetbsd-6-1-RELEASE
+/eqsf2.c/1.1/Tue Jun  6 08:15:03 2000//Tnetbsd-6-1-RELEASE
+/eqtf2.c/1.1/Mon Jan 17 10:08:35 2011//Tnetbsd-6-1-RELEASE
+/fpgetmask.c/1.4/Mon Apr 28 20:23:00 2008//Tnetbsd-6-1-RELEASE
+/fpgetround.c/1.3/Mon Apr 28 20:23:00 2008//Tnetbsd-6-1-RELEASE
+/fpgetsticky.c/1.3/Mon Apr 28 20:23:00 2008//Tnetbsd-6-1-RELEASE
+/fpsetmask.c/1.4/Mon Apr 28 20:23:00 2008//Tnetbsd-6-1-RELEASE
+/fpsetround.c/1.3/Mon Apr 28 20:23:00 2008//Tnetbsd-6-1-RELEASE
+/fpsetsticky.c/1.3/Mon Apr 28 20:23:00 2008//Tnetbsd-6-1-RELEASE
+/gedf2.c/1.1/Tue Jun  6 08:15:05 2000//Tnetbsd-6-1-RELEASE
+/gesf2.c/1.1/Tue Jun  6 08:15:05 2000//Tnetbsd-6-1-RELEASE
+/getf2.c/1.1/Mon Jan 17 10:08:35 2011//Tnetbsd-6-1-RELEASE
+/gexf2.c/1.2/Mon Sep 27 10:16:24 2004//Tnetbsd-6-1-RELEASE
+/gtdf2.c/1.1/Tue Jun  6 08:15:05 2000//Tnetbsd-6-1-RELEASE
+/gtsf2.c/1.1/Tue Jun  6 08:15:06 2000//Tnetbsd-6-1-RELEASE
+/gttf2.c/1.1/Mon Jan 17 10:08:35 2011//Tnetbsd-6-1-RELEASE
+/gtxf2.c/1.2/Mon Sep 27 10:16:24 2004//Tnetbsd-6-1-RELEASE
+/ledf2.c/1.1/Tue Jun  6 08:15:06 2000//Tnetbsd-6-1-RELEASE
+/lesf2.c/1.1/Tue Jun  6 08:15:06 2000//Tnetbsd-6-1-RELEASE
+/letf2.c/1.1/Mon Jan 17 10:08:35 2011//Tnetbsd-6-1-RELEASE
+/ltdf2.c/1.1/Tue Jun  6 08:15:06 2000//Tnetbsd-6-1-RELEASE
+/ltsf2.c/1.1/Tue Jun  6 08:15:06 2000//Tnetbsd-6-1-RELEASE
+/lttf2.c/1.1/Mon Jan 17 10:08:35 2011//Tnetbsd-6-1-RELEASE
+/nedf2.c/1.1/Tue Jun  6 08:15:07 2000//Tnetbsd-6-1-RELEASE
+/negdf2.c/1.1/Tue Jun  6 08:15:07 2000//Tnetbsd-6-1-RELEASE
+/negsf2.c/1.1/Tue Jun  6 08:15:07 2000//Tnetbsd-6-1-RELEASE
+/negtf2.c/1.1/Mon Jan 17 10:08:35 2011//Tnetbsd-6-1-RELEASE
+/negxf2.c/1.2/Mon Sep 27 10:16:24 2004//Tnetbsd-6-1-RELEASE
+/nesf2.c/1.1/Tue Jun  6 08:15:07 2000//Tnetbsd-6-1-RELEASE
+/netf2.c/1.1/Mon Jan 17 10:08:35 2011//Tnetbsd-6-1-RELEASE
+/nexf2.c/1.2/Mon Sep 27 10:16:24 2004//Tnetbsd-6-1-RELEASE
+/softfloat-for-gcc.h/1.8/Mon Dec 14 01:07:42 2009//Tnetbsd-6-1-RELEASE
+/softfloat-history.txt/1.1/Tue Jun  6 08:15:08 2000//Tnetbsd-6-1-RELEASE
+/softfloat-source.txt/1.2/Fri Nov 24 19:46:58 2006//Tnetbsd-6-1-RELEASE
+/softfloat-specialize/1.6/Sun Mar  6 10:27:37 2011//Tnetbsd-6-1-RELEASE
+/softfloat.txt/1.2/Fri Nov 24 19:46:58 2006//Tnetbsd-6-1-RELEASE
+/timesoftfloat.c/1.1/Tue Jun  6 08:15:11 2000//Tnetbsd-6-1-RELEASE
+/timesoftfloat.txt/1.1/Tue Jun  6 08:15:11 2000//Tnetbsd-6-1-RELEASE
+/unorddf2.c/1.1/Tue May  6 08:58:19 2003//Tnetbsd-6-1-RELEASE
+/unordsf2.c/1.1/Tue May  6 08:58:20 2003//Tnetbsd-6-1-RELEASE
+D/bits32////
+D/bits64////
+D/templates////

@@ -1,0 +1,27 @@
+/builtin.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/client.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/config.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/control.h/1.3.4.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/globals.h/1.3.4.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/interfacemgr.h/1.3.4.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/listenlist.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/log.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/logconf.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/lwaddr.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/lwdclient.h/1.2.6.1/Tue Jun  5 21:15:10 2012//Tnetbsd-6-1-RELEASE
+/lwresd.h/1.2.6.1/Tue Jun  5 21:15:10 2012//Tnetbsd-6-1-RELEASE
+/lwsearch.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/main.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/notify.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/ns_smf_globals.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/query.h/1.2.6.1/Tue Jun  5 21:15:10 2012//Tnetbsd-6-1-RELEASE
+/server.h/1.3.4.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/sortlist.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/statschannel.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/tkeyconf.h/1.2.6.1/Tue Jun  5 21:15:10 2012//Tnetbsd-6-1-RELEASE
+/tsigconf.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/types.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/update.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+/xfrout.h/1.2.6.1/Tue Jun  5 21:15:10 2012//Tnetbsd-6-1-RELEASE
+/zoneconf.h/1.2.6.1/Tue Jun  5 21:15:09 2012//Tnetbsd-6-1-RELEASE
+D

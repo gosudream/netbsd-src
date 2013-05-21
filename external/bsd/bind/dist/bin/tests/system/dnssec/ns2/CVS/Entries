@@ -1,0 +1,14 @@
+/algroll.db.in/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/badparam.db.in/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/child.nsec3.example.db/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/child.optout.example.db/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/dlv.db.in/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/dst.example.db.in/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/example.db.in/1.1.1.7.4.2/Sat Dec 15 05:39:36 2012//Tnetbsd-6-1-RELEASE
+/insecure.secure.example.db/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/named.conf/1.1.1.4.4.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/private.secure.example.db.in/1.1.1.2.6.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+/rfc2335.example.db/1.1.1.1/Sun Mar 22 14:56:40 2009//Tnetbsd-6-1-RELEASE
+/sign.sh/1.1.1.10.4.2/Sat Dec 15 05:39:36 2012//Tnetbsd-6-1-RELEASE
+/single-nsec3.db.in/1.1.1.1.8.1/Wed Jun  6 18:17:31 2012//Tnetbsd-6-1-RELEASE
+D

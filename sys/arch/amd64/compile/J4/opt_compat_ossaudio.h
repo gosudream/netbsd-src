@@ -1,0 +1,9 @@
+#define	COMPAT_OSSAUDIO	1
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_COMPAT_OSSAUDIO
+ .global _KERNEL_OPT_COMPAT_OSSAUDIO
+ .equiv _KERNEL_OPT_COMPAT_OSSAUDIO,0x1
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_COMPAT_OSSAUDIO\n .global _KERNEL_OPT_COMPAT_OSSAUDIO\n .equiv _KERNEL_OPT_COMPAT_OSSAUDIO,0x1\n .endif");
+#endif

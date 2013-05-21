@@ -1,0 +1,9 @@
+/* option `AMDPM_RND_COUNTERS' not defined */
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_AMDPM_RND_COUNTERS
+ .global _KERNEL_OPT_AMDPM_RND_COUNTERS
+ .equiv _KERNEL_OPT_AMDPM_RND_COUNTERS,0x6e074def
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_AMDPM_RND_COUNTERS\n .global _KERNEL_OPT_AMDPM_RND_COUNTERS\n .equiv _KERNEL_OPT_AMDPM_RND_COUNTERS,0x6e074def\n .endif");
+#endif

@@ -1,0 +1,18 @@
+/* option `PPPOE_TERM_UNKNOWN_SESSIONS' not defined */
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_PPPOE_TERM_UNKNOWN_SESSIONS
+ .global _KERNEL_OPT_PPPOE_TERM_UNKNOWN_SESSIONS
+ .equiv _KERNEL_OPT_PPPOE_TERM_UNKNOWN_SESSIONS,0x6e074def
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_PPPOE_TERM_UNKNOWN_SESSIONS\n .global _KERNEL_OPT_PPPOE_TERM_UNKNOWN_SESSIONS\n .equiv _KERNEL_OPT_PPPOE_TERM_UNKNOWN_SESSIONS,0x6e074def\n .endif");
+#endif
+/* option `PPPOE_SERVER' not defined */
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_PPPOE_SERVER
+ .global _KERNEL_OPT_PPPOE_SERVER
+ .equiv _KERNEL_OPT_PPPOE_SERVER,0x6e074def
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_PPPOE_SERVER\n .global _KERNEL_OPT_PPPOE_SERVER\n .equiv _KERNEL_OPT_PPPOE_SERVER,0x6e074def\n .endif");
+#endif

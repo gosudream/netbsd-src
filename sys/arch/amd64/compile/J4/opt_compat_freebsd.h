@@ -1,0 +1,9 @@
+#define	COMPAT_FREEBSD	1
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_COMPAT_FREEBSD
+ .global _KERNEL_OPT_COMPAT_FREEBSD
+ .equiv _KERNEL_OPT_COMPAT_FREEBSD,0x1
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_COMPAT_FREEBSD\n .global _KERNEL_OPT_COMPAT_FREEBSD\n .equiv _KERNEL_OPT_COMPAT_FREEBSD,0x1\n .endif");
+#endif

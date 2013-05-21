@@ -1,0 +1,22 @@
+/.cvsignore/1.1.1.1/Fri Sep 19 20:07:22 2008//Tnetbsd-6-1-RELEASE
+/Makefile.am/1.1.1.1/Fri Sep 19 20:07:22 2008//Tnetbsd-6-1-RELEASE
+/amu.h/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/clnt_sperrno.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/hasmntopt.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/memcmp.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/misc_rpc.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/mount_fs.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/mtab.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/nfs_prot_xdr.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/strcasecmp.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/strdup.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+/strerror.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/strlcat.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/strlcpy.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/strstr.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/strutil.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/ualarm.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/wire.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/xdr_func.c/1.1.1.2/Fri Mar 20 20:26:56 2009//Tnetbsd-6-1-RELEASE
+/xutil.c/1.1.1.2/Fri Mar 20 20:26:55 2009//Tnetbsd-6-1-RELEASE
+D

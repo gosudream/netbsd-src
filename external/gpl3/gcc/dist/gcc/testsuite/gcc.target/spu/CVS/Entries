@@ -1,0 +1,24 @@
+/Wmain.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/abi.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/compare-dp.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/cpat-1.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/cpat-2.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/cpat-3.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/cpat-4.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/dfcgt-nan.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/dfcmeq.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/dfcmgt.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/fixed-range-bad.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/fixed-range.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/intrinsics-1.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/intrinsics-2.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/intrinsics-3.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/intrinsics-sr.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/muldivti3.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/pr40001.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/spu.exp/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/subti3.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/tag_manager.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/vector-ansi.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+/vector.c/1.1.1.1/Tue Jun 21 01:23:07 2011//Tnetbsd-6-1-RELEASE
+D/ea////

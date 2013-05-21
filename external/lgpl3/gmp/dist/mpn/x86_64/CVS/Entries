@@ -1,0 +1,43 @@
+/README/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/addaddmul_1msb0.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/addmul_2.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/aorrlsh1_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/aorrlsh2_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/aorrlsh_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/aors_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/aorsmul_1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/bdiv_dbm1c.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/bdiv_q_1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/com.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/copyd.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/copyi.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/darwin.m4/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/dive_1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/divrem_1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/divrem_2.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/gcd_1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/gmp-mparam.h/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/invert_limb.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/logops_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/lshift.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/lshiftc.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/lshsub_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/mod_1_4.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/mod_34lsub1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/mode1o.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/mul_1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/mul_2.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/mul_basecase.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/popham.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/redc_1.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/rsh1aors_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/rshift.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/sqr_basecase.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/sublsh1_n.asm/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+/x86_64-defs.m4/1.1.1.1/Mon Jun 20 05:54:39 2011//Tnetbsd-6-1-RELEASE
+D/atom////
+D/core2////
+D/corei////
+D/fat////
+D/nano////
+D/pentium4////

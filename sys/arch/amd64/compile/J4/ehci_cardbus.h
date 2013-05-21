@@ -1,0 +1,9 @@
+#define	NEHCI_CARDBUS	1
+#ifdef _LOCORE
+ .ifndef _KERNEL_OPT_NEHCI_CARDBUS
+ .global _KERNEL_OPT_NEHCI_CARDBUS
+ .equiv _KERNEL_OPT_NEHCI_CARDBUS,0x1
+ .endif
+#else
+__asm(" .ifndef _KERNEL_OPT_NEHCI_CARDBUS\n .global _KERNEL_OPT_NEHCI_CARDBUS\n .equiv _KERNEL_OPT_NEHCI_CARDBUS,0x1\n .endif");
+#endif
